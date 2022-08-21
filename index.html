@@ -9,8 +9,60 @@
   </head>
   <body>
     <main class="main_container">
-      <nav></nav>
-      <section></section>
+      <!-- Sidebar -->
+      <nav class="nav">
+        <!-- Logo -->
+        <figure class="logo_wrapper">
+          <a href="/">
+            <img class="logo" src="/public/statics/logo.svg" alt="logo" />
+          </a>
+        </figure>
+
+        <!-- Nav Links -->
+        <div class="nav_items_wrapper">
+          <a href="/" class="nav_item">
+            <figure class="nav_icon">
+              <img src="/public/statics/icons/home.png" alt="home-icon" />
+            </figure>
+            <span>Dashboard</span>
+          </a>
+          <a href="/" class="nav_item">
+            <figure class="nav_icon">
+              <img src="/public/statics/icons/balance.png" alt="home-icon" />
+            </figure>
+            <span>Balance</span>
+          </a>
+          <a href="/" class="nav_item">
+            <figure class="nav_icon">
+              <img src="/public/statics/icons/invoice.png" alt="home-icon" />
+            </figure>
+            <span>Invoices</span>
+          </a>
+          <a href="/" class="nav_item">
+            <figure class="nav_icon">
+              <img src="/public/statics/icons/card.png" alt="home-icon" />
+            </figure>
+            <span>Cards</span>
+          </a>
+          <a href="/" class="nav_item">
+            <figure class="nav_icon">
+              <img
+                src="/public/statics/icons/transection.png"
+                alt="home-icon"
+              />
+            </figure>
+            <span>Transaction</span>
+          </a>
+        </div>
+        <div class="log_out_warpper">
+          <a class="nav_item" href="/">
+            <img src="/public/statics/icons/log-out.png" alt="" />
+            <span>Log Out</span>
+          </a>
+        </div>
+      </nav>
+
+      <section class="content_body"></section>
     </main>
 
     <script src="./script.js"></script>
