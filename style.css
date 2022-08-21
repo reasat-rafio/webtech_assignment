@@ -1,0 +1,14 @@
+:root {
+  --bg-primary: #faf0e6;
+  --bg-secondary: #1e1e1e;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg-secondary);
+}
